@@ -7,9 +7,24 @@
 <title>Task1</title>
 <link rel="stylesheet" href="styles.css">
 
+<!--Style for flex container aka paragraph boxes--> 
+<style>
+    .flex-container {
+      width:100%;
+      overflow:auto;
+      align-content: center;
+    }
+    .flex-container div {
+      width:35%;
+      height: 500px;
+      float:left;
+    }
+    </style>
 
 <body>
 </head>
+
+<!-- Navigation Bar-->
 <nav>
 <h2 style="border:3px solid black;text-align:left;"> 
 <a href="" target="_self">HOME</a>
@@ -18,35 +33,21 @@
 </nav>
 </body>
 
+<!-- Two Paragraph Boxes-->
 <div class="flex-container">
-    <style>
-        .mycontainer {
-          width:100%;
-          overflow:auto;
-        }
-        .mycontainer div {
-          width:50%;
-          float:left;
-        }
-        </style>
-    <section>
-<div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
-</div>
-</section>
-
 <section>
-<div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
-</div>
-</div>
+    <div style="border:2px solid black;text-align:left">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
+    </div>
 </section>
 
+<div style="border:2px solid black;text-align:left">
+<section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
+    </div>
+</section>
 
-
-<body>
-</body>
-
+  </div>
 
 
 
