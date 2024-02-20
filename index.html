@@ -1,42 +1,46 @@
 <!doctype html>
-<html>	
+<html lang="en">	
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Task1</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+#div1 {
+  grid-template-columns: auto auto;
+ background-color: white;
 
+}
 
-<!--Style for flex container aka paragraph boxes removed from html added to styles sheet--> 
+#div1 p {
+  padding: 20px;
+  border: 2px solid black
+}
+</style>
 
-<body>
+<!--Style for flex container aka paragraph boxes removed from index.html added to styles sheet--> 
 </head>
 
+
 <!-- Navigation Bar-->
+
+<body>
 <nav>
 <h2 style="border:3px solid black;text-align:left;"> 
-<a href="style.css" target="_self">HOME</a>
-<a href="style.css" target="_self">NEWS</a>
+<a href="/index.html" target="_self">HOME</a>
+<a href="/news.html">NEWS</a>
 </h2>
 </nav>
 </body>
 
 <!-- Two Paragraph Boxes-->
-<div class="flex-container">
-<section>
-    <div style="border:2px solid black;text-align:left;">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
-    </div>
-</section>
+<div id="div1">
+      <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
 
-<div style="border:2px solid black;text-align:left;">
-<section>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
-    </div>
-</section>
-
+      <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac. Proin gravida hendrerit lectus a.</p>
   </div>
+
 
 
 
