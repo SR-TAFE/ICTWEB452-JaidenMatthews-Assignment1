@@ -13,3 +13,21 @@ color:purple;
 background-color: transparent;
 text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
+.flex-container {
+    width:100%;
+    overflow:auto;
+  }
+  .flex-container div {
+    width:35%;
+    height: 500px;
+    float:left;
+  }
