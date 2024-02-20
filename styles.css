@@ -40,7 +40,19 @@ text-decoration: underline;
   visibility: visible;
   }
 }
+.menu2 {
+  visibility: collapse;
+}
 
+@media only screen and (max-width: 625px) {
+  .menu1 {
+    visibility: collapse;
+  }
+
+  .menu2 {
+  visibility: visible;
+  }
+}
 
 
 .div1 {
@@ -66,7 +78,18 @@ text-decoration: underline;
   }
   .div2 p {
     padding: 10px;
-    border: 2px solid rgb(197, 29, 29);
+    border: 2px solid black;
     width: 95% ;
     height: 70%
   }
+
+  @media print { 
+    .menu1 { 
+      display: none!important;
+     } 
+    }
+    @media print { 
+      .menu2 { 
+        display: none!important;
+       } 
+      }
