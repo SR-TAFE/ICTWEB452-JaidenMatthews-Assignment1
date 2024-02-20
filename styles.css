@@ -15,18 +15,3 @@ text-decoration: underline;
 }
 
 
-
-
-.container {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   border: 1px solid black;
-  }
-  .container .item {
-    width:600px;
-    height: 500px;
-    border: 2px solid black
-  }
